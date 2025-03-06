@@ -14,17 +14,17 @@ create table Funcionario(
 );
 
 create table Produto(
-	idMaquinas int not null auto_increment,
+	produtoID int not null auto_increment,
     tipo text,
     marca text,
-    Capacidade_de_Injeção text,
-    Força_de_Fechamento text,
-    Tipo_de_Controle text,
-    Preço_Médio_USD text,
-    Preço_Médio_BRL text,
-    fornecedor text,
-    observacoes text,
-    primary key (idMaquinas)    
+    capacidade_de_injecao text,
+    força_de_fechamento text,
+    tipo_de_controle text,
+    preço_médio_dolar text,
+    preço_médio_real text,
+    Fornecedor text,
+    observaçoes text,
+    primary key (produtoID)    
 );
 
 create table Fornecedor(
